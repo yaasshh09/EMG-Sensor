@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "emg_signal.kicad_pro",
+    "filename": "emg_sensor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,8 +643,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "emg_signal.kicad_sch",
-        "name": "Root",
+        "filename": "emg_sensor.kicad_sch",
+        "name": "emg_sensor",
         "uuid": "391566a0-af9a-4b23-be23-e16c048eaa9f"
       }
     ],
