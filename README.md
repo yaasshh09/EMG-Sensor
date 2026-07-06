@@ -15,8 +15,13 @@ Forearm electrodes
       v
 [Stage 4] Half-wave rectifier + RC envelope (tau = 47 ms)
 ```
-
----
+<p align="center">
+  <img src="Images/PCB_FULL.png" alt="PCB_FULL"> 
+</p>
+<p align="center">
+  <img src="Images/PCB_F.png" alt="F" width="400">
+ <img src="Images/PCB_B.png" alt="B" width="400">
+</p>
 
 ## Signal Chain
 
@@ -31,6 +36,9 @@ Two matched 10 kohm resistors from 5 V to GND. Midpoint = 2.5 V.
 ```
 V_bias = 5V x R2 / (R1 + R2) = 5V x 10k / 20k = 2.5 V
 ```
+<p>
+  <img src="Images/BIAS.png" alt="PCB_FULL", width="300"> 
+</p>
 
 ### Stage 1 - 3-op-amp instrumentation amplifier
 
@@ -42,7 +50,11 @@ Gain = 1 + (2 x Rf / Rg) = 1 + (2 x 100k / 2k) = 101x
 - Rg = 2 kohm (single resistor between OA1 IN- and OA2 IN-)
 - OA3 difference amplifier: 4 matched 10 kohm resistors
 
-CMRR depends on matching the four OA3 resistors. Select four from the kit using a multimeter -- target within 1% of each other.
+CMRR depends on matching the four OA3 resistors. Select four from the kit using a multimeter: target within 1% of each other.
+
+<p>
+  <img src="Images/INA.png" alt="PCB_FULL", width="300"> 
+</p>
 
 ### Stage 2 - Twin-T 50 Hz notch filter
 
@@ -55,6 +67,10 @@ Actual f_notch with 33 kohm: 48.2 Hz -- effective against 50 Hz hum
 ```
 
 Followed by a unity-gain op-amp buffer to restore drive capability.
+
+<p>
+  <img src="Images/TWINT.png" alt="PCB_FULL", width="300"> 
+</p>
 
 ### Stage 3 - Sallen-Key bandpass 20-500 Hz
 
@@ -72,6 +88,10 @@ R = 1 / (2pi x 500 x 10nF) = 31.8 kohm --> 33 kohm
 Actual cutoff: 482 Hz
 ```
 
+<p>
+  <img src="Images/BANDPASS.png" alt="PCB_FULL", width="300"> 
+</p>
+
 ### Stage 4 - Envelope detector
 
 ```
@@ -81,6 +101,9 @@ tau = R x C = 4700 x 0.00001 = 47 ms
 
 Constraint: 1/500Hz = 2ms << tau << 1/20Hz = 50ms  (satisfied)
 ```
+<p>
+  <img src="Images/DIODE.png" alt="PCB_FULL",  width="300"> 
+</p>
 
 The output is a slowly-varying DC voltage proportional to muscle activation level. This feeds directly into your  microcontroller.
 
