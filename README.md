@@ -1,5 +1,7 @@
 ## System Overview
 
+The MyoRead is an EMG sensor made up of a four-stage analog circuit that picks up the tiny electrical signals your muscles give off when they contract and cleans them up enough for a computer to read. It's built around the cheap, everyday LM358P op-amp to keep costs down.
+
 ```
 Forearm electrodes 
       |
