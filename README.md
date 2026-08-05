@@ -18,7 +18,11 @@ Forearm electrodes
 [Stage 4] Half-wave rectifier + RC envelope (tau = 47 ms)
 ```
 <p align="center">
-  <img src="Images/PCB_FULL.png" alt="PCB_FULL"> 
+  
+</p>
+<p align="center">
+  <img src="Images/PCB_FULL.png" alt="FULL" width="400">
+ <img src="Images/EMG_3D.png" alt="3D" width="400">
 </p>
 <p align="center">
   <img src="Images/PCB_F.png" alt="F" width="400">
