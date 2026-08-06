@@ -128,3 +128,23 @@ FOREARM (palm facing up, elbow left, wrist right)
 - REF on the bony wrist prominence (styloid process) -- no muscle underneath, picks up noise only
 
 Skin prep: alcohol wipe, apply conductive gel under each pad. Target skin impedance below 10 kohm between electrodes.
+
+## Bill Of Materials
+
+| Component | Manufacturer Part Number | Description | Quantity |
+|-----------|--------------------------|-------------|---------:|
+| 10 kΩ Resistor | MFR-25FRF52-10K | RES 10K OHM 1% 1/4W AXIAL | 10 |
+| 33 kΩ Resistor | MFR-25FTE52-33K | RES 33K OHM 1% 1/4W AXIAL | 10 |
+| 1 MΩ Resistor | MFR-25FRF52-1M | RES 1M OHM 1% 1/4W AXIAL | 2 |
+| 100 kΩ Resistor | MFR-25FBF52-100K | RES 100K OHM 1% 1/4W AXIAL | 2 |
+| 82 kΩ Resistor | MFR-25FBF52-82K | RES 82K OHM 1% 1/4W AXIAL | 2 |
+| 15 kΩ Resistor | MFR-25FBF52-15K | RES 15K OHM 1% 1/4W AXIAL | 1 |
+| 4.7 kΩ Resistor | MFR-25FTE52-4K7 | RES 4.7K OHM 1% 1/4W AXIAL | 1 |
+| 22 kΩ Resistor | MFR-25FTE52-22K | RES 22K OHM 1% 1/4W AXIAL | 1 |
+| Signal Diode | 1N4148 | DIODE STANDARD 100V 200MA DO35 | 1 |
+| Operational Amplifier | LM358P | IC OPAMP GP 2 CIRCUIT 8DIP | 3 |
+| 2 kΩ Resistor | MFR-25FBF52-2K | RES 2K OHM 1% 1/4W AXIAL | 1 |
+| 100 nF Ceramic Capacitor | K104K15X7RF5TL2 | CAP CER 0.1µF 50V X7R RADIAL | 10 |
+| 10 nF Ceramic Capacitor | A103K15X7RF5TAA | CAP CER 10000PF 50V X7R AXIAL | 2 |
+| 10 µF Electrolytic Capacitor | 50YXJ10M5X11 | CAP ALUM 10µF 20% 50V RADIAL TH | 2 |
+| 220 nF Ceramic Capacitor | FG14X7R1H224KNT00 | CAP CER 0.22µF 50V X7R RADIAL | 1 |
