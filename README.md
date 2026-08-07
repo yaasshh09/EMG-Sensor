@@ -134,20 +134,20 @@ Skin prep: alcohol wipe, apply conductive gel under each pad. Target skin impeda
 
 ## Bill Of Materials
 
-| Component | Manufacturer Part Number | Description | Quantity |
-|-----------|--------------------------|-------------|---------:|
-| 10 kΩ Resistor | MFR-25FRF52-10K | RES 10K OHM 1% 1/4W AXIAL | 10 |
-| 33 kΩ Resistor | MFR-25FTE52-33K | RES 33K OHM 1% 1/4W AXIAL | 10 |
-| 1 MΩ Resistor | MFR-25FRF52-1M | RES 1M OHM 1% 1/4W AXIAL | 2 |
-| 100 kΩ Resistor | MFR-25FBF52-100K | RES 100K OHM 1% 1/4W AXIAL | 2 |
-| 82 kΩ Resistor | MFR-25FBF52-82K | RES 82K OHM 1% 1/4W AXIAL | 2 |
-| 15 kΩ Resistor | MFR-25FBF52-15K | RES 15K OHM 1% 1/4W AXIAL | 1 |
-| 4.7 kΩ Resistor | MFR-25FTE52-4K7 | RES 4.7K OHM 1% 1/4W AXIAL | 1 |
-| 22 kΩ Resistor | MFR-25FTE52-22K | RES 22K OHM 1% 1/4W AXIAL | 1 |
-| Signal Diode | 1N4148 | DIODE STANDARD 100V 200MA DO35 | 1 |
-| Operational Amplifier | LM358P | IC OPAMP GP 2 CIRCUIT 8DIP | 3 |
-| 2 kΩ Resistor | MFR-25FBF52-2K | RES 2K OHM 1% 1/4W AXIAL | 1 |
-| 100 nF Ceramic Capacitor | K104K15X7RF5TL2 | CAP CER 0.1µF 50V X7R RADIAL | 10 |
-| 10 nF Ceramic Capacitor | A103K15X7RF5TAA | CAP CER 10000PF 50V X7R AXIAL | 2 |
-| 10 µF Electrolytic Capacitor | 50YXJ10M5X11 | CAP ALUM 10µF 20% 50V RADIAL TH | 2 |
-| 220 nF Ceramic Capacitor | FG14X7R1H224KNT00 | CAP CER 0.22µF 50V X7R RADIAL | 1 |
+| Component | Manufacturer Part Number | Description | Quantity | Unit Price | Total Price |
+|-----------|--------------------------|-------------|---------:|-----------:|------------:|
+| 10 kΩ Resistor | MFR-25FRF52-10K | RES 10K OHM 1% 1/4W AXIAL | 10 | $0.042 | $0.42 |
+| 33 kΩ Resistor | MFR-25FTE52-33K | RES 33K OHM 1% 1/4W AXIAL | 10 | $0.042 | $0.42 |
+| 1 MΩ Resistor | MFR-25FRF52-1M | RES 1M OHM 1% 1/4W AXIAL | 2 | $0.100 | $0.20 |
+| 100 kΩ Resistor | MFR-25FBF52-100K | RES 100K OHM 1% 1/4W AXIAL | 2 | $0.100 | $0.20 |
+| 82 kΩ Resistor | MFR-25FBF52-82K | RES 82K OHM 1% 1/4W AXIAL | 2 | $0.100 | $0.20 |
+| 15 kΩ Resistor | MFR-25FBF52-15K | RES 15K OHM 1% 1/4W AXIAL | 1 | $0.100 | $0.10 |
+| 4.7 kΩ Resistor | MFR-25FTE52-4K7 | RES 4.7K OHM 1% 1/4W AXIAL | 1 | $0.100 | $0.10 |
+| 22 kΩ Resistor | MFR-25FTE52-22K | RES 22K OHM 1% 1/4W AXIAL | 1 | $0.100 | $0.10 |
+| Signal Diode | 1N4148 | DIODE STANDARD 100V 200MA DO35 | 1 | $0.100 | $0.10 |
+| Operational Amplifier | LM358P | IC OPAMP GP 2 CIRCUIT 8DIP | 3 | $0.330 | $0.99 |
+| 2 kΩ Resistor | MFR-25FBF52-2K | RES 2K OHM 1% 1/4W AXIAL | 1 | $0.100 | $0.10 |
+| 100 nF Ceramic Capacitor | K104K15X7RF5TL2 | CAP CER 0.1UF 50V X7R RADIAL | 10 | $0.167 | $1.67 |
+| 10 nF Ceramic Capacitor | A103K15X7RF5TAA | CAP CER 10000PF 50V X7R AXIAL | 2 | $0.260 | $0.52 |
+| 10 µF Electrolytic Capacitor | 50YXJ10M5X11 | CAP ALUM 10UF 20% 50V RADIAL TH | 2 | $0.320 | $0.64 |
+| 220 nF Ceramic Capacitor | FG14X7R1H224KNT00 | CAP CER 0.22UF 50V X7R RADIAL | 1 | $0.280 | $0.28 |
